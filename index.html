@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.5.0/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Landing Page project</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="page-header" id="header">
+      <div class="page-title-cont">
+        <a class="page-logo" href="./index.html">
+          <img
+            class="page-logo-img"
+            id="header-img"
+            src="https://logowik.com/content/uploads/images/cat8600.jpg"
+            alt="Page icon. Icon of a sitting cat"
+          />
+        </a>
+        <h1 class="page-title">Cat Heaven</h1>
+      </div>
+      <nav id="nav-bar" class="nav-bar">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#breeds" class="nav-link">Breeds</a></li>
+          <li><a href="#adoption" class="nav-link">Adoption</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <h2 class="hero-title">Welcome to the Cat Heaven</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email for updates"
+            required
+          />
+          <input type="submit" value="Join Our Community" id="submit" />
+        </form>
+      </section>
+
+      <section id="about">
+        <h2 class="slogan">
+          <blockquote>
+            Dedicated to rescuing and caring for cats, providing them with
+            loving homes.
+          </blockquote>
+        </h2>
+        <div class="team">
+          <div class="team-member">
+            <h3>Dr. Elena Rodríguez</h3>
+            <p>
+              Veterinarian with over 15 years of experience specializing in
+              felines.
+            </p>
+          </div>
+
+          <div class="team-member">
+            <h3>Carlos Méndez</h3>
+            <p>Head caregiver and feline behavior specialist.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="breeds">
+        <header>
+          <h2>Breeds</h2>
+        </header>
+        <div class="breeds-main">
+          <div id="persian-section">
+            <img
+              class="breed-avatar"
+              src="./assets/persian.jpg"
+              alt="avatar of persian cat"
+            />
+            <h3>Persian</h3>
+            <iframe
+              id="video"
+              class="breed-video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/-t0fP0VpksI?si=zz9u-K2u8qEb4Jq7"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div id="maine-coon-section">
+            <img
+              class="breed-avatar"
+              src="./assets/maine-coon.jpg"
+              alt="avatar of maine coon cat"
+            />
+            <h3>Maine Coon</h3>
+            <iframe
+              id="video-2"
+              class="breed-video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/_SYCmSTvg_Q?si=N-nHa4vzasVoSTj1"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div id="Siamese-section">
+            <img
+              class="breed-avatar"
+              src="./assets/siamese.jpg"
+              alt="avatar of siamese cat"
+            />
+            <h3>Siamese</h3>
+            <iframe
+              id="video-3"
+              class="breed-video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/C_UzfEzdt2o?si=FT5AgJhN1_mHPCUf"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+
+      <section id="adoption">
+        <header>
+          <h2>Adoption</h2>
+        </header>
+
+        <div class="adoption-main">
+          <div class="adoption-steps">
+            <h3>Steps</h3>
+            <ol class="steps-list">
+              <li>Browse our available cats online.</li>
+              <li>Fill out an adoption application form.</li>
+              <li>
+                Schedule a meet-and-greet with your potential new feline friend.
+              </li>
+              <li>Complete the adoption paperwork.</li>
+              <li>Take your new cat home!</li>
+            </ol>
+          </div>
+
+          <div class="adoption-requirements">
+            <h3>Requirements</h3>
+            <ul class="requirements-list">
+              <li>Valid photo ID.</li>
+              <li>Proof of residence.</li>
+              <li>Signed adoption agreement.</li>
+            </ul>
+          </div>
+
+          <div class="contact">
+            <h3>Contact</h3>
+            <div class="contact-el contact-email">
+              <h4>Email</h4>
+              <p>adoption@ourwebsite.com</p>
+            </div>
+            <div class="contact-el contact-phone">
+              <h4>Phone</h4>
+              <p>+123-456-7890</p>
+            </div>
+            <div class="contact-el contact-address">
+              <h4>Address</h4>
+              <p>123 Adoption St., City, Country.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="copyright">&copy; 2024 Cat Haven</div>
+    </footer>
+  </body>
+</html>
